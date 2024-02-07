@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietitian Website Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f9a01ea1da.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">          
+        <nav class="navbar navbar-expand-lg py-4">
+            <div class="container-fluid pe-0">
+                <a class="navbar-brand" style="width: 130px;" href="#"><img class="w-100" src="images/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end d-block d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header pb-0">
+                        <a class="nav-link p-2" href="#"><i class="fa-solid fa-user me-2"></i> Log In</a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body pt-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing Plans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-column" id="navbarTogglerDemo01">
+                    <a class="nav-link ms-auto p-2" href="#"><i class="fa-solid fa-user me-2"></i> Log In</a>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row banner">
+            <div class="card border-0 rounded-0 vh-100" style="background: url('images/banner.webp'); background-position: center; background-size: cover;">
+                <div class="card-img-overlay ms-0 ms-md-5 rounded-0 p-5 d-flex flex-column justify-content-center text-center" style="max-width: 470px; height: auto; background-color: rgba(255,255,255,.8);">
+                    <h1>"Our Food Should Be Our Medicine & Our Medicine Should Be Our Food"</h1>
+                    <button type="button" class="btn btn-outline-green">Book a Session</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="row">
+            <div class="col-12 col-md-6 px-3 ps-md-5">
+                <img src="images/amy.jpg" alt="Amy">
+            </div>
+            <div class="col-12 col-md-6 p-3 p-md-5 my-4 my-md-5 text-center text-md-start">
+                <h2>Meet Amy</h2>
+                <p class="pe-0 pe-md-5">I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+                <button type="button" class="btn btn-outline-green mb-5">Read More</button>
+                <img class="mt-4" src="images/food.webp" alt="Food">
+            </div>
+        </section>
+
+        <section class="row text-center" style="background-color: #c9d8bf; padding: 100px 0 200px;">
+            <div class="col-12">
+                <h2>Dietitian Counseling</h2>
+                <div class="card border-0 rounded-0 mb-3 mx-auto text-md-start" style="max-width: 830px;">
+                    <div class="row g-0">
+                        <div class="col-md-6 order-md-2" style="background: url(images/meal.webp); background-position: center; background-size: cover; min-height: 200px;"></div>
+                        <div class="col-md-6 p-2 p-md-5 order-md-1">
+                            <div class="card-body">
+                                <h2 class="mb-3">Initial Assessment</h2>
+                                <p class="card-text" style="font-size: 16px;">1 hr<br>75$</p>
+                                <button type="button" class="btn btn-green">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-green">All Sessions</button>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-12 col-md-6 ps-5 position-relative relative">
+                <img class="position-absolute" style="top: -100px;" src="images/food2.jpg" alt="Food">
+            </div>
+            <div class="col-12 col-md-6 p-3 p-md-5 mt-5 text-center text-md-start">
+                <h2>Recipes & Tips</h2>
+                <p class="pe-0 pe-md-5">I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+                <button type="button" class="btn btn-outline-green">Read More</button>
+                <div class="card border-0 rounded-0 position-relative relative" style="max-width: 400px; margin-top: -140px; bottom: -180px;">
+                    <img class="card-img-top rounded-0" src="images/food3.jpeg" alt="Food">
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 12px;">Admin<br>Mar 22, 2023</p>
+                        <h2 class="mb-4">How Dietitians Fuel for the Morning</h2><hr>
+                        <div class="d-flex justify-content-between px-1" style="font-size: 14px;">
+                            <span><i class="fa-regular fa-message"></i> 0</span>
+                            <i class="fa-regular fa-heart" style="color: #e84a43;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #1d3b2a; color: #fff; padding-top: 250px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-5" style="border-top: 1px solid #fff;">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-auto mx-md-0 mb-3 mb-md-0" href="#" style="width: 130px;"><img src="images/logo-footer.png" class="w-100" alt="Logo"></a>
+                    <div class="d-flex flex-column mx-auto mx-md-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-row">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-flex">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing Plans</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="copy" style="background-color: #fff; color: #000;">
+            <div class="container"><p class="m-0 py-4 px-5 px-md-0 text-center text-md-start" style="font-size: 14px;">© 2035 by Amy Kohler. Powered and secured by Wix</p></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
