@@ -76,7 +76,7 @@ footer .nav-link {
         position: static !important;
     }
     .relative {
-        min-height: 200px;
+        min-height: 300px;
     }
     .relative > img {
         top: -150px;
