@@ -62,6 +62,10 @@ footer .nav-link {
     color: #fff !important;
 }
 
+.banner .card {
+    height: calc(100vh - 120px) !important;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 21px;
@@ -83,5 +87,10 @@ footer .nav-link {
     }
     img {
         width: 100%;
+    }
+    .card-img-overlay {
+        margin: auto auto 0 !important;
+        height: min-content;
+        width: min-content;
     }
 }
