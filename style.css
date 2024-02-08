@@ -63,7 +63,7 @@ footer .nav-link {
 }
 
 .banner .card {
-    height: calc(100vh - 120px) !important;
+    height: calc(100vh - 200px) !important;
 }
 
 @media (max-width: 600px) {
